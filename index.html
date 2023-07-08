@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--we have added this view port tag and set initial scale to 1 so that our side shoudl be adjustable according to different devices especially for mobile devices-->
+        <title>Sakshi Kadam</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"><!--poppins font from google fonts website then select popping select some types and then embed-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--link to connect to font awesome 4 to use different icons, just type font awesome 4 cdn and click on first link and copy the url and past it here with rel="stylesheet"-->
+    </head>
+
+    <body>
+
+        <!--making header-->
+    <div class="header">
+        <div class="container">
+
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="image/WhatsApp Image 2023-07-07 at 8.17.17 PM.jpeg" alt="your logo" width=15px height="15px"></a>
+                </div>
+    
+                <!--menu-->
+                 <nav> 
+                    <ul id="MenuItems">                  
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="image/WhatsApp Image 2023-07-07 at 8.17.36 PM.jpeg" alt="cart" width=20px height=20px></a>
+                <img src="image/WhatsApp Image 2023-07-07 at 8.17.17 PM.jpeg" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+        
+            <div class="row">
+
+               
+                <div class="col-2">
+                    <h1>Careful to choose skincare for your beauty skin</h1>
+                    <p>“To me, the essence of truly modern makeup is the freedom to be yourself, to express who you are.”
+                    </p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                    </div>
+
+                <!--2nd for image-->
+                <div class="col-2">
+                    <img src="image/first.jpg" height="400px" width="500px" alt="header image">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="offer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-2">
+                   <img src="image/istockphoto.jpg" class="offer-img"> 
+                </div>
+
+                <div class="col-2">
+                    <p>Exclusively available on </p>
+                    <h1></h1>
+                    <small>
+                        Treat your makeup like jewelry for the face. Play with colors, shapes, structure – it can transform you.
+                    </small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+ <div class="categories">
+
+        <div class="small container">
+            <div class="row">
+
+                <div class="col-4">
+                    <img src="image/cosmetic-oil-3164684_640.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="image/cosmetics-4365139_640.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="image/hygiene-3045911_640.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="image/lipstick-5736130_640.jpg" alt="">
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+
+    
+     <div class="small container">
+        <h2 class="title">Featured Products</h2>
+         <div class="row">
+     
+             <div class="col-4">
+                 <a href="product-detail.html"><img src="image/cosmetics-4365139_640.jpg"></a>
+                 <a href="product-detail.html"><h4>Moisturiser cream</h4></a>
+                 <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                 </div>
+                 <p>Rs 120.00</p>
+             </div>
+
+             <div class="col-4">
+                <img src="image/essential-oil-3139479_640.jpg"> 
+                <h4>Essential oil</h4>  
+                <div class="rating">    
+                   <i class="fa fa-star" aria-hidden="true"></i> 
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs 100</p>  
+            </div>
+
+            <div class="col-4">
+                <img src="image/istockphoto-1397036353-612x612.jpg" height="200px"> 
+                <h4>Maskar</h4>  
+                <div class="rating">   
+                   <i class="fa fa-star" aria-hidden="true"></i> 
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs 99</p>  
+            </div>
+
+            <div class="col-4">
+                <img src="image/lipstick.jpg"> 
+                <h4>Lipstick</h4>  
+                <div class="rating">   
+                   <i class="fa fa-star" aria-hidden="true"></i> 
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                </div>
+                <p>Rs 150</p>  
+            </div>
+         </div>
+
+        
+
+         <h2 class="title">Latest Products</h2>
+         <div class="row">
+           
+             <div class="col-4">
+                 <img src="image/manicure-870857_640.jpg"> 
+                 <h4>combination Of Nail Paint</h4>  
+                 <div class="rating">   
+                    <i class="fa fa-star" aria-hidden="true"></i> 
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                 </div>
+                 <p>Rs 200</p>  
+             </div>
+
+             <div class="col-4">
+                <img src="image/oil-4262839_640.jpg"> 
+                <h4>hair Oil</h4>  
+                <div class="rating">   
+                   <i class="fa fa-star" aria-hidden="true"></i> 
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs 55</p>  
+                 </div>
+
+             <div class="col-4">
+                <img src="image/combination.jpg"> 
+                <h4>Makeup Combination</h4>  
+                <div class="rating">   
+                   <i class="fa fa-star" aria-hidden="true"></i> 
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs 500.00</p>  
+              </div>
+
+             <div class="col-4">
+                <img src="image/makeup-5643868_640.jpg"> 
+                <h4>Compact Powder</h4>  
+                <div class="rating">   
+                   <i class="fa fa-star" aria-hidden="true"></i> 
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                </div>
+                <p>Rs 200</p>  
+              </div>
+         </div>    
+        <div class="row">
+            <div class="col-4">
+                <img src="image/lipstick.jpg"> 
+                <h4>Lipstick</h4>  
+                <div class="rating">   
+                   <i class="fa fa-star" aria-hidden="true"></i> 
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs 99</p>  
+            </div>
+
+            <div class="col-4">
+               <img src="image/cosmetics-4365139_640.jpg"> 
+               <h4>Moisturiser cream</h4>  
+               <div class="rating">   
+                  <i class="fa fa-star" aria-hidden="true"></i> 
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+               </div>
+               <p>Rs 120</p> 
+           </div>
+
+           <div class="col-4">
+               <img src="image/lipsticksgroup.jpg"> 
+               <h4>lipstick</h4>  
+               <div class="rating">   
+                  <i class="fa fa-star" aria-hidden="true"></i> 
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+               </div>
+               <p>Rs 300</p>  
+           </div>
+
+           <div class="col-4">
+               <img src="image/essential-oils-2738555_640.jpg"> 
+               <h4>Essential- oil</h4>  
+               <div class="rating">   
+                  <i class="fa fa-star" aria-hidden="true"></i> 
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+               </div>
+               <p>Rs 99</p>  
+           </div>
+        </div>
+
+    </div>
+
+    <div class="offer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-2">
+                   <img src="image/combination.jpg" class="offer-img"> 
+                </div>
+
+                <div class="col-2">
+                    <p>Exclusively available on beauty.skin</p>
+                    <h1>We always open for whoever want to know about us</h1>
+                    <small>
+                        Make your day beautiful
+                    </small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brands">
+        <div class="small container">
+            <div class="row">
+                <div class="col-5">
+                     <img src="">
+                </div>
+
+                <div class="col-5">
+                    <img src="">
+               </div>
+
+
+               <div class="col-5">
+                <img src="">
+           </div>
+
+           <div class="col-5">
+            <img src="">
+       </div>
+
+       <div class="col-5">
+        <img src="">
+   </div>
+            </div>
+        </div>
+    </div>
+     
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and Ios mobile phone.</p>
+                   
+                    <div class="app-logo">
+                        <img src="image/WhatsApp Image 2023-07-07 at 8.17.22 PM.jpeg">
+                        <img src="image/WhatsApp Image 2023-07-07 at 8.17.10 PM.jpeg">
+                    </div>   
+                
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="">
+                    <p>
+                        Make your day beautiful</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                    
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                    
+                </div>
+            </div>
+           
+            <hr>
+            <a href="#copyrigth" class="copyright">  Sakshi Kadam</a>
+        </div>
+    </div>         
+
+    <script>
+        
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle()
+        {
+            if (MenuItems.style.maxHeight =="0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px" 
+            }
+        
+        }
+    </script>    
+    
+    </body>
+
+</html>
